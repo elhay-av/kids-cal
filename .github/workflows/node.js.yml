@@ -34,6 +34,7 @@ jobs:
           retention-days: 6
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy GitHub Pages site
