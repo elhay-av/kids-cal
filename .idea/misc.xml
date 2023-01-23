@@ -3,12 +3,6 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="2" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="b54275ea-30e4-4d82-a80c-9bad38bdbc19" />
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
