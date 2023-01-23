@@ -35,6 +35,18 @@ jobs:
 
   deploy:
     needs: build
+    permissions:
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      issues: write
+      packages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - name: Deploy GitHub Pages site
@@ -45,7 +57,7 @@ jobs:
           # The status of the previous build.
           # conclusion: # optional
           # GitHub token
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # token: ${{ secrets.GITHUB_TOKEN }}
           # Time in milliseconds after which to timeout and cancel the deployment (default: 10 minutes)
           # timeout: # optional, default is 600000
           # Maximum number of status report errors before cancelling a deployment (default: 10)
