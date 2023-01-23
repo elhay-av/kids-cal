@@ -58,4 +58,4 @@ jobs:
           # Name of the artifact to deploy
           artifact_name: github-pages
           # Is this attempting to deploy a pull request as a GitHub Pages preview site? (NOTE: This feature is only in alpha currently and is not available to the public!)
-          preview: $GITHUB_REF_NAME != "master"
+          # preview: $GITHUB_REF_NAME != "master"
